@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 style="display: flex; justify-content: center;">Hey gurl hey!! Check out my 5 fav artists!!</h1>
+
+{% for artist in artists %}
+    <div class="card art" style="">
+        <div class="card-body">
+        <a href='https://en.wikipedia.org/wiki/{{artist}}' style="text-decoration: none; color: neon greenyellow;"> {{ artist }} </a>
+        </div>
+    </div>
+    {% endfor %}
+
+{% endblock %}

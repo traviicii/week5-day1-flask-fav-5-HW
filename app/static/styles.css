@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(205, 205, 205);
+}
+
+.art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, orange, rgb(180, 96, 180));
+    width: 250px;
+    left: 40%;
+}
+
+.art:hover {
+    background-image: linear-gradient(to bottom right, rgb(180, 96, 180), orange);
+}
+
+
+
+.h1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background-image: linear-gradient(black, rgb(205, 205, 205),rgb(205, 205, 205));
+}
